@@ -1,1 +1,12 @@
 Fill in the passphrases here.
+Question 1: WongAvery (found in an HTML comment at the top)
+Question 2: iHateC++ (found in the data-question2 attribute in the title tag)
+Question 3: HTMLRules (found in a hidden paragraph element)
+Question 4: JavaScriptRocks (found in a custom element with display:none)
+Question 5: ShraviBeatsReact (found in a span with opacity: 0)
+Question 6: Passcode is in the comment: ThisIsJSyay. In "dontlookhere.js
+Question 7: Passcode is logged to the console: SofiaWasHere.  In "dontlookhere.js
+Question 8: coolcoolcool3x (found in a CSS comment in the style block)
+Question 9: 2020_sucked (found in a hidden h2 element)
+Question 11: ElaineFirst (found in the meta tag attribute)
+Question 12: iHeartWebDev (found in a data attribute on a div)
