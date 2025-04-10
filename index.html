@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Meeting Minutes - Pomodoro Timer First Brainstorm</title>
+    <meta name="description" content="Meeting minutes for the Pomodoro Timer brainstorming session.">
+    <link rel="icon" href="favicon.ico">
+  </head>
+  <body>
+    <header>
+      <h1>Pomodoro Timer First Brainstorm</h1>
+      <h2>Brainstorming Session</h2>
+      <p>Date: April 15, 2025</p>
+    </header>
+    <main>
+      <section>
+        <h3>Attendance</h3>
+        <ul>
+          <li>Member One</li>
+          <li>Member Two</li>
+          <li>Member Three</li>
+        </ul>
+      </section>
+      
+      <section>
+        <h3>Meeting Recordings</h3>
+        <p>Audio recording:</p>
+        <audio controls>
+          <source src="audio.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <p>Video recording:</p>
+        <video width="320" height="240" controls>
+          <source src="video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </section>
+      
+      <section>
+        <h3>Feedback Form</h3>
+        <form>
+          <fieldset>
+            <legend>Meeting Feedback</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            
+            <label for="attended">Did you attend?</label>
+            <input type="checkbox" id="attended" name="attended"><br>
+            
+            <p>Please select your preferred meeting time:</p>
+            <input type="radio" id="time1" name="meetingTime" value="10AM">
+            <label for="time1">10 AM</label>
+            <input type="radio" id="time2" name="meetingTime" value="2PM">
+            <label for="time2">2 PM</label><br>
+            
+            <label for="meetingDate">Meeting Date:</label>
+            <input type="date" id="meetingDate" name="meetingDate"><br>
+            
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments"></textarea><br>
+            
+            <label for="options">Choose an option:</label>
+            <input list="options" name="option">
+            <datalist id="options">
+              <option value="Option 1">
+              <option value="Option 2">
+            </datalist><br>
+            
+            <label for="feedback">Rate the meeting:</label>
+            <select id="feedback" name="feedback">
+              <option value="excellent">Excellent</option>
+              <option value="good">Good</option>
+              <option value="fair">Fair</option>
+              <option value="poor">Poor</option>
+            </select><br>
+            
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>© 2025 Pomodoro Timer Team</p>
+    </footer>
+  </body>
+</html>
