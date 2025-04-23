@@ -93,3 +93,16 @@ button.primary {
   ul:has(li.selected) {
     outline: 3px solid gold;
   }
+
+
+  .card {
+    color: #333;
+    background: #fafafa;
+    padding: 1rem;
+    border-radius: 12px;
+  }
+  .card h3 {
+    margin-top: 0;
+  }
+
+
