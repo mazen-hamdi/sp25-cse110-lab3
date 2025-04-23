@@ -18,3 +18,11 @@
 main          { padding: 2rem; }     /* rem */
 section       { margin-block: 5vh; } /* vh */
 img.hero      { width: 90%; }        /* % */
+
+
+
+aside {
+  border: 2px solid;
+  padding: 12pt;
+  border-radius: .5in;
+}
