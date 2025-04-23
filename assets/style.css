@@ -90,3 +90,6 @@ button.primary {
     background: var(--accent,var(--accent-fallback));
     color: #fff;
   }
+  ul:has(li.selected) {
+    outline: 3px solid gold;
+  }
