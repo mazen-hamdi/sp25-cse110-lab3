@@ -1,97 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Meeting Minutes - Pomodoro Timer First Brainstorm</title>
-    <meta name="description" content="Meeting minutes for the Pomodoro Timer brainstorming session.">
-    <link rel="icon" href="favicon.ico">
-  </head>
-  <body>
-    <header>
-      <h1>Pomodoro Timer First Brainstorm</h1>
-      <h2>Brainstorming Session</h2>
-      <p>Date: April 15, 2025</p>
-    </header>
-    <main>
-      <section>
-        <h3>Attendance</h3>
-        <ul>
-          <li>Member One</li>
-          <li>Member Two</li>
-          <li>Member Three</li>
-        </ul>
-      </section>
-      
-     <!-- Pomodoro Image -->
-     <section class="pomodoro-image">
-      <h2>The Pomodoro Technique</h2>
-      <img src="assets/Pomodoro-Technique2-3323512964.webp" alt="Pomodoro Technique" width="400">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Font & external CSS link (Issue #22 / #2) -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Post Warm-up Project Meeting – Team 4 the Win</title>
+
+  <!-- Internal <style> block (satisfies “3 ways to style”) -->
+  <style>
+    blockquote{font-style:italic;border-left:4px solid var(--accent-fallback);margin-inline:0;padding-inline:1rem}
+  </style>
+</head>
+<body>
+
+<header id="site-header">
+  <h1 id="hero-title">Post Warm-up Project Meeting</h1>
+  <p><strong>Location:</strong> Zoom &nbsp;|&nbsp; <strong>Date:</strong> 21 Apr 2025 &nbsp;|&nbsp; <strong>Time:</strong> 9 : 00 pm</p>
+</header>
+
+<main>
+  <!-- Attendance ---------------------------------------------------- -->
+  <section id="attendance">
+    <h2>Attendees <span class="emoji">🙂</span></h2>
+    <ul>
+      <li>Meruzhan Sargsyan</li>
+      <li>Arman Nurbalin</li>
+      <li>Arul Mathur</li>
+      <li>Jude</li>
+      <li>Ali Alsadah</li>
+      <li>Kyle Long</li>
+      <li>Mohammed Hamdi</li>
+      <li>Xiao Chen</li>
+      <li>Eric Nguyen</li>
+      <li>Eve Nguyen</li>
+      <li>Richard James</li>
+    </ul>
   </section>
 
-  <!-- Video Section -->
-  <section class="video-section">
-    <h2>Watch Pomodoro Tutorial</h2>
-    <video width="560" height="315" controls>
-        <source src="assets/2025-04-10 06-49-37.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-</section>
+  <!-- Agenda -------------------------------------------------------- -->
+  <section id="agenda">
+    <h2>Agenda Items</h2>
+    <ol>
+      <li>Soft deadline @ 21 : 00 for submissions (buffer for emergencies)</li>
+      <li>Meruz availability after 21 : 00 not guaranteed</li>
+      <li>
+        Role changes &amp; team management
+        <ul>
+          <li>2 × front-end, 2 × back-end programmers</li>
+          <li>1 × Lead Designer working with Meruz</li>
+          <li>Assign note-taker &amp; record-keeper</li>
+        </ul>
+      </li>
+      <li>
+        Tuesday / Thursday meetings
+        <ul><li>20 : 00 – Arul (Back-end), Ali (Front-end)</li></ul>
+      </li>
+      <li>More detailed task instructions &amp; announcement channel</li>
+    </ol>
+  </section>
 
- <!-- Audio Section -->
- <section class="audio-section">
-  <h2>Pomodoro Timer Sound</h2>
-  <audio controls>
-      <source src="assets/2025-04-10 06-49-37.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-  </audio>
-</section>
-      
-      <section>
-        <h3>Feedback Form</h3>
-        <form>
-          <fieldset>
-            <legend>Meeting Feedback</legend>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name"><br>
-            
-            <label for="attended">Did you attend?</label>
-            <input type="checkbox" id="attended" name="attended"><br>
-            
-            <p>Please select your preferred meeting time:</p>
-            <input type="radio" id="time1" name="meetingTime" value="10AM">
-            <label for="time1">10 AM</label>
-            <input type="radio" id="time2" name="meetingTime" value="2PM">
-            <label for="time2">2 PM</label><br>
-            
-            <label for="meetingDate">Meeting Date:</label>
-            <input type="date" id="meetingDate" name="meetingDate"><br>
-            
-            <label for="comments">Comments:</label>
-            <textarea id="comments" name="comments"></textarea><br>
-            
-           
-            <label for="optionInput">Choose an option:</label>
-            <input list="options" name="option" id="optionInput">
-            <datalist id="options">
-              <option value="Option 1">
-              <option value="Option 2">
-            </datalist><br>
-            
-            <label for="feedback">Rate the meeting:</label>
-            <select id="feedback" name="feedback">
-              <option value="excellent">Excellent</option>
-              <option value="good">Good</option>
-              <option value="fair">Fair</option>
-              <option value="poor">Poor</option>
-            </select><br>
-            
-            <button type="submit">Submit</button>
-          </fieldset>
-        </form>
-      </section>
-    </main>
-    <footer>
-      <p>© 2025 Pomodoro Timer Team</p>
-    </footer>
-  </body>
+  <!-- Role Planning ------------------------------------------------- -->
+  <section id="roles">
+    <h2>Role Planning</h2>
+    <table>
+      <thead>
+        <tr><th>Role</th><th>Person / People</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Lead Designer</td><td>Eve</td></tr>
+        <tr><td>Asset gathering</td><td>Arman</td></tr>
+        <tr><td>Testing / Code Review</td><td>Richard &amp; Mohammed</td></tr>
+        <tr><td>Back-end (JavaScript)</td><td>Kyle &amp; Jude &amp; Arul &amp; Eric</td></tr>
+        <tr><td>Front-end (HTML/CSS)</td><td>Xiao &amp; Ali</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Front- vs Back-end teams -------------------------------------- -->
+  <section id="subteams">
+    <h2>Front-end / Back-end Sub-teams</h2>
+    <ul>
+      <li><strong>Team 1:</strong> Ali, Jude, Kyle</li>
+      <li><strong>Team 2:</strong> Xiao, Arul, Eric</li>
+    </ul>
+  </section>
+
+  <!-- Discussion / Misc -------------------------------------------- -->
+  <section id="discussion">
+    <h2>Discussion &amp; Decisions</h2>
+    <blockquote>
+      <p><strong>AI use:</strong> We used AI to write back-end logic; while fast, it produced bugs that were hard to debug. We will <em>limit AI use</em> going forward.</p>
+    </blockquote>
+  </section>
+
+  <!-- Example Flexbox footer (Issue #11) -->
+  <footer>
+    <button class="btn primary">OK</button>
+    <button class="btn">Close</button>
+  </footer>
+</main>
+
+</body>
 </html>
