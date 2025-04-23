@@ -73,3 +73,10 @@ h1, h2, h3 {
   .hero {
     position: static;
   }
+
+  li:hover {
+    background: #fffee6;
+  }
+  li:active {
+    background: #ffd;
+  }
