@@ -26,3 +26,13 @@ aside {
   padding: 12pt;
   border-radius: .5in;
 }
+
+article {
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    margin-left: auto; /* longhand + auto */
+  }
+  article > p {
+    padding: 1em 2em 1em 2em; /* shorthand (also covers #10) */
+  }
