@@ -85,3 +85,8 @@ nav ul li a { font-weight: 600; }   /* descendant */
 nav > ul     { list-style: none; }  /* child */
 h2 + p       { margin-top: 0; }     /* adjacent sibling */
 p ~ img      { border: 1px solid; } /* general sibling */
+
+button.primary {
+    background: var(--accent,var(--accent-fallback));
+    color: #fff;
+  }
