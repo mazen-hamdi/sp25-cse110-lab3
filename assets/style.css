@@ -40,3 +40,27 @@ article {
     padding: 1em 2em 1em 2em; /* shorthand (also covers #10) */
   }
   
+a[target="_blank"] {
+  text-decoration: underline wavy currentColor;
+}
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+} 
+
+.btn {
+    display: inline-block;
+    padding: .5rem 1rem;
+  }
+  .btn-block {
+    display: block;
+    width: 100%;
+  }
+
+  footer {
+    display: flex;
+    gap: 2ch;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
