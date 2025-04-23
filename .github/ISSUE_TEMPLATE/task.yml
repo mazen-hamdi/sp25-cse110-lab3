@@ -1,0 +1,19 @@
+name: Task
+description: Use this to track one atomic Lab-3 task.
+title: "[TASK] "
+labels: ["type:feature"]
+body:
+  - type: textarea
+    attributes:
+      label: What & Why
+      description: >
+        Briefly describe what you need to do and why
+        (e.g. “Add flexbox nav bar to <header> for CSS Checklist”).
+  - type: dropdown
+    id: type
+    attributes:
+      label: Label
+      options:
+        - feature
+        - style
+        - docs
