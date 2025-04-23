@@ -1,0 +1,8 @@
+:root {
+    --accent: color(display-p3 1 .55 .2);
+    --accent-fallback: #e74c3c; /* fallback */
+  }
+  header {
+    background: var(--accent, var(--accent-fallback));
+    color: #fff;
+  }
