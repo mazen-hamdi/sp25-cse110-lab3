@@ -105,4 +105,8 @@ button.primary {
     margin-top: 0;
   }
 
-
+  @media (max-width: 600px) {
+    nav ul       { flex-direction: column; }
+    .gallery     { grid-template-columns: 1fr; }
+    body         { font-size: .9rem; }
+  }
