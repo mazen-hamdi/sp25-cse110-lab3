@@ -57,3 +57,10 @@ h1, h2, h3 {
     width: 100%;
   }
 
+  footer {
+    display: flex;
+    gap: 2ch;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
