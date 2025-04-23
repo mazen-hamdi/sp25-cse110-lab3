@@ -64,3 +64,12 @@ h1, h2, h3 {
     align-items: center;
     flex-wrap: wrap;
   }
+
+  #site-header {
+    position: sticky;
+    top: 0;
+    background: var(--accent,var(--accent-fallback));
+  }
+  .hero {
+    position: static;
+  }
